@@ -1,10 +1,10 @@
 # Erosion-Dilation-and-Morphological-Gradient-in-the-image
-Learn Erosion, Dilation and Morphological Gradient in the image
 
-***Morphological operations*** are a set of operations that process images based on shapes. They apply a structuring element to an input image and generate an output image. 
-The most basic morphological operations are two: Erosion and Dilation 
-Basics of Erosion: 
+**Morphological operations** are a set of operations that process images based on shapes. They apply a structuring element to an input image and generate an output image. 
+The most basic morphological operations are two: 
+> ErosionDilation 
 
+*Basics of Erosion:*
 Erodes away the boundaries of the foreground object
 Used to diminish the features of an image.
 Working of erosion: 
