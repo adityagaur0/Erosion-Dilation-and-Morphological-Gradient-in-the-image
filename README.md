@@ -1,6 +1,6 @@
 # Erosion-Dilation-and-Morphological-Gradient-in-the-image
 
-##Morphological operations are a set of operations that process images based on shapes. They apply a structuring element to an input image and generate an output image. 
+Morphological operations are a set of operations that process images based on shapes. They apply a structuring element to an input image and generate an output image. 
 The most basic morphological operations are two: 
 ### ***Erosion***
 
@@ -27,5 +27,25 @@ The most basic morphological operations are two:
   1. A kernel(a matrix of odd size(3,5,7) is convolved with the image
   2. A pixel element in the original image is ‘1’ if at least one pixel under the kernel is ‘1’.
   3. It increases the white region in the image or the size of the foreground object increases 
+
+## ***Apply some noise on the previous image by creating blobs on it. Then apply following operations on the noisy image:***
+
+### **1. Opening**
+An opening is an erosion followed by a dilation.
+![download (3)](https://github.com/adityagaur0/Erosion-Dilation-and-Morphological-Gradient-in-the-image/assets/112656570/0bd89a00-e8a3-4a14-a775-caf826656a68)
+
+### **2. Closing**
+The exact opposite to an opening would be a closing. A closing is a dilation followed by an erosion.
+
+### **3. Morphological gradient**
+A morphological gradient is the difference between a dilation and erosion.
+
+### **4. Top hat/white hat and black hat**
+A top hat (also known as a white hat) morphological operation is the difference between the original (grayscale/single channel) input image and the opening.
+
+A top hat operation is used to reveal bright regions of an image on dark backgrounds.
+
+
+
 
 
