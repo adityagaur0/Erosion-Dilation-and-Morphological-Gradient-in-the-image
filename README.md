@@ -4,7 +4,7 @@
 The most basic morphological operations are two: 
 1. ***Erosion***
 
-<img width="518" alt="Screenshot 2023-10-18 at 1 06 44 PM" src="https://github.com/adityagaur0/Erosion-Dilation-and-Morphological-Gradient-in-the-image/assets/112656570/736431f9-719f-4a73-a87a-c89750efcbdb">
+<img width="513" alt="Screenshot 2023-10-18 at 1 09 47 PM" src="https://github.com/adityagaur0/Erosion-Dilation-and-Morphological-Gradient-in-the-image/assets/112656570/d1cbe6db-29b0-4db8-9c8b-540852d5e530">
 
   *Basics of Erosion:*
   1. Erodes away the boundaries of the foreground object.
