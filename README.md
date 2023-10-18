@@ -3,6 +3,7 @@
 **Morphological operations** are a set of operations that process images based on shapes. They apply a structuring element to an input image and generate an output image. 
 The most basic morphological operations are two: 
 > ***Erosion***
+
   *Basics of Erosion:*
   1. Erodes away the boundaries of the foreground object.
   2. Used to diminish the features of an image.
@@ -13,6 +14,7 @@ The most basic morphological operations are two:
   3. Thus all the pixels near the boundary will be discarded depending upon the size of the kernel.
   4. So the thickness or size of the foreground object decreases or simply the white region decreases in the image.
 > ***Dilation***
+
   *Basics of dilation:*
   1. Increases the object area.
   2. Used to accentuate features.
