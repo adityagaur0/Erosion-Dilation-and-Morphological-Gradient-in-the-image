@@ -32,13 +32,19 @@ The most basic morphological operations are two:
 
 ### **1. Opening**
 An opening is an erosion followed by a dilation.
-![download (3)](https://github.com/adityagaur0/Erosion-Dilation-and-Morphological-Gradient-in-the-image/assets/112656570/0bd89a00-e8a3-4a14-a775-caf826656a68)
+
+<img width="510" alt="Screenshot 2023-10-18 at 1 21 25 PM" src="https://github.com/adityagaur0/Erosion-Dilation-and-Morphological-Gradient-in-the-image/assets/112656570/ed69d7c6-cc8b-4b84-a504-64c12dd7ae29">
+
 
 ### **2. Closing**
 The exact opposite to an opening would be a closing. A closing is a dilation followed by an erosion.
 
+<img width="514" alt="Screenshot 2023-10-18 at 1 21 34 PM" src="https://github.com/adityagaur0/Erosion-Dilation-and-Morphological-Gradient-in-the-image/assets/112656570/e6344a26-57af-423a-a5ca-cc5345bc0e9f">
+
 ### **3. Morphological gradient**
 A morphological gradient is the difference between a dilation and erosion.
+
+<img width="509" alt="Screenshot 2023-10-18 at 1 21 53 PM" src="https://github.com/adityagaur0/Erosion-Dilation-and-Morphological-Gradient-in-the-image/assets/112656570/8cdeeff0-6c22-45ed-b758-700a41c42290">
 
 ### **4. Top hat/white hat and black hat**
 A top hat (also known as a white hat) morphological operation is the difference between the original (grayscale/single channel) input image and the opening.
