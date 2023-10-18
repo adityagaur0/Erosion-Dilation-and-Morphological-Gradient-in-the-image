@@ -1,5 +1,4 @@
 # Erosion-Dilation-and-Morphological-Gradient-in-the-image
-<img width="1008" alt="Screenshot 2023-10-18 at 9 41 17 AM" src="https://github.com/adityagaur0/Erosion-Dilation-and-Morphological-Gradient-in-the-image/assets/112656570/539462dd-69e4-4675-9d71-01cab335f103">
 
 **Morphological operations** are a set of operations that process images based on shapes. They apply a structuring element to an input image and generate an output image. 
 The most basic morphological operations are two: 
@@ -25,3 +24,4 @@ The most basic morphological operations are two:
   2. A pixel element in the original image is ‘1’ if at least one pixel under the kernel is ‘1’.
   3. It increases the white region in the image or the size of the foreground object increases 
 
+<img width="1008" alt="Screenshot 2023-10-18 at 9 41 17 AM" src="https://github.com/adityagaur0/Erosion-Dilation-and-Morphological-Gradient-in-the-image/assets/112656570/539462dd-69e4-4675-9d71-01cab335f103">
